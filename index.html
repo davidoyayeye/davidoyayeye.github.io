@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DesignByTheDave | David Olusegun Oyayeye, Graphic Designer</title>
+<meta name="description" content="Portfolio of David Olusegun Oyayeye (DesignByTheDave): graphic design, brand identity, social media, AI-assisted web design and digital communication.">
+<meta name="author" content="David Olusegun Oyayeye">
+<meta property="og:type" content="website">
+<meta property="og:title" content="DesignByTheDave | David Olusegun Oyayeye">
+<meta property="og:description" content="If you can picture it, I can capture it. Graphic design, branding and social media creatives.">
+<meta property="og:image" content="assets/david-portrait.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Instrument+Serif:ital@1&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<script>
+/* Runs before paint: no flash of the wrong theme */
+(function(){var t=null;try{t=localStorage.getItem('theme')}catch(e){}
+if(t!=='light'&&t!=='dark'){t=window.matchMedia&&matchMedia('(prefers-color-scheme: light)').matches?'light':'dark'}
+document.documentElement.setAttribute('data-theme',t)})();
+</script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="header" id="top">
+  <div class="bar">
+    <a class="brand" href="#top" aria-label="DesignByTheDave, back to top">DesignByTheDave</a>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <a href="#work">Work</a><a href="#about">About</a><a href="#capabilities">Capabilities</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="right">
+      <a class="btn btn-solid head-cta" href="#contact">Let’s Work Together</a>
+      <button class="icon-btn" id="theme" type="button" aria-label="Switch to light mode" aria-pressed="false">
+        <svg class="i-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        <svg class="i-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      </button>
+      <button class="icon-btn menu-btn" id="menu" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav">
+        <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+<section class="hero wrap">
+  <div class="hero-copy">
+    <p class="kicker">Graphic Designer · Digital Creative · Social Media Manager · Brand Identity Designer · AI-Assisted Web Design · Prompt Engineer</p>
+    <h1>I design. I communicate.<br>I make ideas stand out.</h1>
+    <p class="lead">Graphic design, visual storytelling, and digital communication crafted to help brands communicate clearly and make a lasting impression.</p>
+    <p class="tagline">“If you can picture it, I can capture it.”</p>
+    <div class="actions"><a class="btn btn-solid" href="#work">Explore My Work</a><a class="btn btn-ghost" href="#contact">Let’s Build Something</a></div>
+  </div>
+  <div class="portrait">
+    <img src="assets/david-portrait.jpg" alt="Portrait of David Olusegun Oyayeye" width="1060" height="1484" fetchpriority="high" data-fallback="Portrait placeholder: add assets/david-portrait.jpg">
+    <aside class="float-card" aria-label="Creative process">
+      <p class="fc-title">Creative process</p>
+      <ol>
+        <li><b>Listen</b><span>Understand the message and audience</span></li>
+        <li><b>Sketch</b><span>Explore layout, type and colour</span></li>
+        <li><b>Design</b><span>CorelDRAW, Photoshop, Illustrator, Canva</span></li>
+        <li><b>Deliver</b><span>Files ready for print and the feed</span></li>
+      </ol>
+    </aside>
+  </div>
+</section>
+
+<section class="wrap section" id="work" aria-labelledby="work-h">
+  <div class="sec-head"><div><p class="kicker">Work</p><h2 id="work-h">Selected work</h2></div>
+  <div class="arrows"><button class="icon-btn" id="cat-prev" type="button" aria-label="Scroll categories left" disabled><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+  <button class="icon-btn" id="cat-next" type="button" aria-label="Scroll categories right"><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button></div></div>
+  <div class="cats" id="cats" role="group" aria-label="Project categories" tabindex="-1"></div>
+  <div class="result-bar"><p id="result" aria-live="polite"></p></div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="wrap section about" id="about" aria-labelledby="about-h">
+  <div><p class="kicker">About</p><h2 id="about-h">David Olusegun Oyayeye</h2></div>
+  <div class="about-body">
+    <p>I’m a graphic designer and digital creative who turns ideas into clear, memorable visuals. My work spans branding, campaign graphics, social media creatives and promotional materials.</p>
+    <p>Alongside design, I manage social media strategy, plan digital content and coordinate creative projects, working closely with project managers and teams so the final output stays professional and on-brand.</p>
+    <div class="facts">
+      <div><b>B.Sc. Biochemistry</b><span>Osun State University (UNIOSUN), Nigeria. Graduated 2023</span></div>
+      <div><b>Certifications</b><span>Google Analytics for Beginners<br>Digital Marketing Certificate, Alison</span></div>
+    </div>
+    <a class="btn btn-ghost" href="#contact">Get in touch</a>
+  </div>
+</section>
+
+<section class="wrap section" id="capabilities" aria-labelledby="cap-h">
+  <div class="sec-head"><div><p class="kicker">Capabilities</p><h2 id="cap-h">Technology is not the point. Clear communication is.</h2></div></div>
+  <ul class="caps">
+    <li><h3>Graphic Design</h3><p>Posters, flyers, covers and print-ready layouts.</p></li>
+    <li><h3>Brand Identity and Visual Communication</h3><p>Identities applied consistently across every touchpoint.</p></li>
+    <li><h3>Social Media Creatives</h3><p>Social-first visuals built for a busy feed.</p></li>
+    <li><h3>Campaign and Promotional Design</h3><p>Event, product and service campaigns.</p></li>
+    <li><h3>Social Media Management</h3><p>Strategy, execution and data-led optimisation.</p></li>
+    <li><h3>Digital Content Planning</h3><p>Content that connects a message to its audience.</p></li>
+    <li><h3>Creative Project Coordination</h3><p>Collaborating with teams to deliver on time.</p></li>
+  </ul>
+</section>
+
+<section class="wrap section" id="experience" aria-labelledby="exp-h">
+  <div class="sec-head"><div><p class="kicker">Experience</p><h2 id="exp-h">Where I’ve worked</h2></div></div>
+  <ol class="timeline">
+    <li><div class="when">January 2026 – Present</div><div><h3>Graphic Designer, FirstBank Nigeria</h3><ul><li>Designed visual content for internal and external communication materials.</li><li>Supported branding and campaign visuals aligned with corporate identity standards.</li><li>Worked on digital creatives for marketing and engagement initiatives.</li><li>Collaborated with teams to ensure professional design output.</li></ul></div></li>
+    <li><div class="when">December 2025<br>Contract / Freelance</div><div><h3>IT Support and Graphic Designer, TechAvac</h3><ul><li>Provided IT support and maintained systems.</li><li>Designed digital graphics for marketing and internal use.</li><li>Supported technical operations and team campaigns.</li></ul></div></li>
+    <li><div class="when">September 2024 – February 2025</div><div><h3>Graphic Designer, Mileage Media</h3><ul><li>Led design projects covering branding, digital content, and promotional materials.</li><li>Collaborated with project managers on creative concepts.</li><li>Contributed to multimedia campaigns associated with a reported 30% improvement in client engagement.</li></ul></div></li>
+    <li><div class="when">July 2023 – Present</div><div><h3>Social Media Manager, CKREGLOM</h3><ul><li>Developed and executed social media strategies.</li><li>Analyzed social media data to optimize campaigns.</li><li>Contributed to a reported 25% increase in followers and engagement.</li><li>Collaborated on online engagement initiatives.</li></ul></div></li>
+  </ol>
+</section>
+
+<section class="wrap section" id="skills" aria-labelledby="sk-h">
+  <div class="sec-head"><div><p class="kicker">Skills</p><h2 id="sk-h">Tools and strengths</h2></div></div>
+  <div class="titles"><h3>Professional titles</h3><ul class="chips"><li>Graphic Designer</li><li>Digital Creative</li><li>Social Media Manager</li><li>Brand Identity Designer</li><li>AI-Assisted Web Design</li><li>Prompt Engineer</li></ul></div>
+  <div><h3>Creative tools</h3><ul class="chips"><li>CorelDRAW</li><li>Adobe Photoshop</li><li>Adobe Illustrator</li><li>Canva</li></ul></div>
+  <div style="margin-top:56px"><h3>Other skills</h3><ul class="chips"><li>Project coordination</li><li>Social media strategy</li><li>Content creation</li><li>Social media analytics</li><li>Microsoft Office</li><li>Google Workspace</li><li>Team collaboration</li></ul></div>
+  </div>
+</section>
+
+<section class="wrap section" id="contact" aria-labelledby="ct-h">
+  <div class="cta-panel">
+    <h2 id="ct-h">Have a brand, campaign or idea in mind?</h2>
+    <p class="lead">Let’s turn it into work people remember.</p>
+    <div class="actions"><a class="btn btn-solid" href="mailto:davidoyayeye@gmail.com?subject=Project%20enquiry">Start a Conversation</a></div>
+    <p class="contact-line"><a href="https://linkedin.com/in/davidoyayeye" target="_blank" rel="noopener">LinkedIn</a> · <a href="https://instagram.com/davidoyayeye" target="_blank" rel="noopener">Instagram</a> · <a href="https://www.behance.net/davidoyayeye" target="_blank" rel="noopener">Behance</a></p>
+  </div>
+</section>
+</main>
+
+<footer class="footer wrap"><span>© <span id="yr">2026</span> DesignByTheDave. All rights reserved.</span><span>If you can picture it, I can capture it.</span></footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
